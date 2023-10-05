@@ -63,6 +63,8 @@
 * Check [info.py](https://github.com/ritheshrkrm/PiroAutoFilterBot/blob/master/info.py) for more
 
 ### Deployment Methods
+Deploye To Heroku 
+https://heroku.com/deploy?template=https://github.com/CineHub4U1/PiroAutoFilterBot
 <details><summary>Deploy To Heroku</summary>
 <p>
 <br>
