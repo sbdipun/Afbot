@@ -15,8 +15,8 @@ jobs:
     - name: Deploy to Aptible
       uses: aptible/aptible-deploy-action@v4
       with:
-        type: git
-        app: tg
+        type: xxgit
+        app: xxbot
         environment: newproject 
         username: ${{ secrets.APTIBLE_USERNAME }}
         password: ${{ secrets.APTIBLE_PASSWORD }}
