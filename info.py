@@ -18,9 +18,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', '')
+API_ID = int(environ.get('API_ID', '7405235'))
+API_HASH = environ.get('API_HASH', '5c9541eefe8452186e9649e2effc1f3f')
+BOT_TOKEN = environ.get('BOT_TOKEN', '5636668845:AAF_TXHTAQd-6c4exYcrv99izRhgPEeHKj0')
 PORT = environ.get("PORT", "8080")
 
 # Bot settings
@@ -51,7 +51,7 @@ SUPPORT_CHAT_ID = -1001825153877
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sunny:kiss@cluster0.t9zqlwz.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "PIRO")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
